@@ -4,6 +4,7 @@
     list-style: none;
 }
 .contents {
+    position: relative;
     text-align: center;
     background: #666;
 }
@@ -27,14 +28,13 @@
     outline: none;
 }
 .contents .btn {
-    position: relative;
     width: 100%;
     height: 50px;
 }
 .contents .btn .btn_list.active{
     position: absolute;
-    top: 0;
-    left: 41%;
+    left: 43%;
+    top: 75%;
     display: flex;
 }
 .contents .btn .btn_list {

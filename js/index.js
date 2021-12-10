@@ -1,5 +1,8 @@
 const btn_start = document.querySelectorAll('.btn_list li');
 const btn_list = document.querySelectorAll('.btn_list');
+const result = document.querySelector('.result');
+const lotto_save = document.querySelector('.lotto_save')
+const save = document.querySelector('.btn_save');
 for(let i = 0; i < btn_list.length; i++) {
     btn_list[i].addEventListener('click',(e) => {
         e.preventDefault();
@@ -23,7 +26,12 @@ for(let i = 0; i < btn_start.length; i++) {
             console.log(rand)
         }
     })
+    //클릭시 result에 나타남
 }
+
+save.addEventListener('click',function () {
+    //로또세이브에 나타남
+});
 
 
 
