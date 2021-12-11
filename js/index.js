@@ -27,10 +27,12 @@ for(let i = 0; i < btn_start.length; i++) {
         }
     })
     //클릭시 result에 나타남
+    result.append(lotto)
 }
 
 save.addEventListener('click',function () {
     //로또세이브에 나타남
+    // result.value='';
 });
 
 
