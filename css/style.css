@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    list-style: none;
 }
 .contents {
     position: relative;
@@ -15,8 +14,6 @@
     padding-bottom: 30px;
 }
 .contents .lotto_cont {
-    width: 200px;
-    height: 20px;
     background: #f3f3f3;
     display: block;
     margin: 0 auto;
@@ -26,6 +23,16 @@
     text-align: center;
     border: none;
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    list-style: none;
+    min-width: 400px;
+    min-height: 40px;
+}
+.contents .lotto_cont li {
+    margin-left: 30px;
 }
 .contents .btn {
     width: 100%;
@@ -34,7 +41,7 @@
 .contents .btn .btn_list.active{
     position: absolute;
     left: 43%;
-    top: 75%;
+    top: 60%;
     display: flex;
 }
 .contents .btn .btn_list {
@@ -55,4 +62,25 @@
 .contents .btn li button:active {
     background-color: rgba(255, 89, 89, 0.233);
     color: skyblue;
+}
+.lotto_save {
+    background: #f3f3f3;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 60px 10px 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    list-style: none;
+    min-width: 400px;
+    min-height: 40px;
+}
+.lotto_save li {
+    margin-left: 30px;
 }
